@@ -6,6 +6,12 @@ d(c) = (c - k)(mod 26) mod = % in C
 c = c-65 convert letter to number i.e. A = 0, B = 1*/
 
 char str[100]
+int key;
+printf("Enter a message:", ); // This message gets encrypted.
+
+printf("Enter a Key:", ); // This is the adjustment factor for the roatation. 
+snanf("%d", &key); // Enters the 'key' (adjustment factor)
+
 
 int main()  {
     
