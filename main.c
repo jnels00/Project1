@@ -10,7 +10,11 @@ int key;
 printf("Enter a message:", ); // This message gets encrypted.
 
 printf("Enter a Key:", ); // This is the adjustment factor for the roatation. 
-snanf("%d", &key); // Enters the 'key' (adjustment factor)
+scanf("%d", &key); // Enters the 'key' (adjustment factor)
+
+if (char >= 'a' && char <= 'z',){
+    char = char + key; //Adds key if letter entered is lower case. 
+}
 
 
 int main()  {
