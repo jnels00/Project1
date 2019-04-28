@@ -12,10 +12,10 @@ int main()
 char str[100];
 int key;
 
-printf("Enter a message:", ); // This message gets encrypted.
+printf("Enter a message:"); // This message gets encrypted.
 scanf("%s", str);
 
-printf("Enter a Key:", ); // This is the adjustment factor for the roatation. 
+printf("Enter a Key:" ); // This is the adjustment factor for the roatation. 
 scanf("%d", &key); // Enters the 'key' (adjustment factor)
 
 return 0;
@@ -24,8 +24,15 @@ return 0;
 void rotation (char str[], int key);
 int i = 0;
 
-while 
-if (char >= 'a' && char <= 'z',){
+while(str[i] != 0) {
+    if((str[i] + key) >= 65 && (str[i] + key) <=90 );
+str[i] = str[i] + key;
+}
+
+
+
+
+if (ch){
     char = char + key; //Adds key if letter entered in lower case.
     
     
